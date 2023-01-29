@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV Proyecto Final</title>
+	<!--documento css-->
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<!--favicon-->
+	<link rel="icon" type="image/x-icon" href="icons8-documento-30.png"/>.
+	<!--pagina de iconos-->
+	<script src="https://kit.fontawesome.com/bf2b37992f.js" crossorigin="anonymous"></script>
+	<!--protocolo Open Graph-->
+	<meta property="og:title" content="CV Christian Lujea" />
+	<meta property="og:type" content="document" />
+	<meta property="og:url" content=" http://www.example.com" />
+	<meta property="og:image" content=" http://example.com/image.jpg" />
+	<meta property="og:description" content="Curriculum Vitae" />
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&family=Seymour+One&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+	
+	<header>
+		<h2 class="container" id="rojo">CURRICULUM VITAE</h2>
+	</header>
+	
+	<script>
+	<!-- evento copiado de w3schools.com -->
+		document.getElementById("rojo").onmouseover = function() {mouseOver()};
+		document.getElementById("rojo").onmouseout = function() {mouseOut()};
+
+		function mouseOver() {
+		document.getElementById("rojo").style.color = "red";
+		}
+
+		function mouseOut() {
+		document.getElementById("rojo").style.color = "#1A5276";
+		}
+	</script>
+
+
+	<div class="row">
+	  <div id="oscuro" class="col-4">
+		<aside>
+			<h1>CHRISTIAN MATIAS LUJEA</h1>
+			<h3>Administración y RRHH</h3>
+			<img id="foto" src="C:\ProyectoFinal\clickme.png" class="container"  alt="foto rostro de Christian" />
+			<section>
+				<h3>Datos de contacto</h3>
+				<h4><i class="fa-solid fa-location-dot"></i>    Domicilio</h4>
+				<p>
+					Golfo San Matías  1060
+					Playas Doradas
+					Rio Negro
+				</p>
+				<h4><i class="fa-solid fa-phone"></i>    Teléfono</h4>
+				<p>
+					297-4294183
+				</p>
+				<h4><i class="fa-solid fa-envelope"></i>    E-Mail</h4>
+				<p>
+					christianlujea@gmail.com
+				</p>
+			</section>
+			<section>
+				<h3>Datos Personales</h3>
+				<h4><i class="fa-solid fa-cake-candles"></i>   Edad   </h4>
+				<p>
+					43 años (2023)    <button id="edad">datos adicionales</button>
+				</p>
+				<h4><i class="fa-solid fa-user-tie"></i>   Estado Civil   </h4>
+				<p>
+					Casado    <button id="estadoCivil">datos adicionales</button>
+				</p>
+				<h4><i class="fa-solid fa-globe"></i>   Nacionalidad   </h4>
+				<p>
+					Argentino    <button id="nacionalidad">datos adicionales</button>
+				</p>
+			</section>
+		</aside>
+	  </div>
+	  <div id="claro" class="col-8">
+		<main>
+			<section>
+				<h3>Experiencia</h3>
+				<h4>Director de Recursos Humanos</h4>
+				<p>Municipalidad de Las Heras</p>
+				<h4>Tesorero</h4>
+				<p>Municipalidad de Las Heras<p>
+				<h4>Director</h4>
+				<p>Centro Cultural YPF – Municipalidad  de las Heras</p>
+				<h4>Jefe de Personal</h4>
+				<p>Geoservices s.r.l.</p>
+				<h4>Administración de Personal</h4>
+				<p>San Antonio – Pride</p>
+				<h4>Administrativo</h4>
+				<p>Banco Santa Cruz S.A.</p>
+			</section>
+			<section>
+				<h3>Educación y Capacitaciones</h3>
+				<h4>Técnico en Administración de Empresas</h4>
+				<p>Instituto de Educación Terciaria “SABER”</p>
+				<h4>Perito Mercantil</h4>
+				<p>Colegio Comercial Nº3 “José Manuel Estrada”</p>
+				<h4>Programa Administración de Personal</h4>
+				<p>Serial de la Torre</p>
+				<h4>Liderazgo, Comunicación y Cultura</h4>
+				<p>UCA  - Facultad de Ciencias Sociales</p>
+				<h4>Organización Empresarial y Planificación</h4>
+				<p>Leading Training Corporation</p>
+				<h4>Comunicación y Trabajo en Equipo</h4>
+				<p>Potencial Humano</p>
+				<h4>Relaciones Sindicales</h4>
+				<p>San Antonio Internacional</p>
+				<h4>Gestión Municipal y Organización Estratégica</h4>
+				<p>UNPA – Facultad Caleta Olivia</p>
+			</section>
+
+		</main>
+	  </div>
+	</div>
+
+	<footer>
+		<p>Proyecto final integrador del curso "Primeros pasos del desarrollo frontend"</p>
+		<p>Argentina Programa 4.0</p>
+		<p>Alumno: Christian Lujea</p>
+		<p>Fecha: 27/01/2023</p>
+	</footer>	
+	
+	<script src="index.js"></script>
+		
+</body>
+</html>
